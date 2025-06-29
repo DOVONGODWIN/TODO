@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Godwin liste Todo</title>
+
+    <link rel="stylesheet" href="styl.css" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div class="Page">
+      <header class="Header" role="banner">
+        <h1 class="Header-title">✓ My Todo</h1>
+      </header>
+
+      <main role="main" class="Main">
+        <div class="Main-wrapper">
+          <div class="Main-content">
+            <h2 class="Main-title">Ma liste principale</h2>
+          <div> 
+            <form  id="form">
+              <label for="search-input"></label>
+              <input type="text" id="query"name="query" placeholder="Rechercher une tâche ">
+              <button type="submit">Rechercher</button>
+            </form>
+          </div>
+
+            <p class="Main-count"></p>
+            <ul class="Main-list"></ul>
+
+            <button type="button" id="add-task-button">
+              Ajouter une tâche
+            </button>
+            <button type="button" id="remove-task-button">Supprimer</button>
+            <p id="laste-edite-date"></p>
+          </div>
+        </div>
+      </main>
+
+
+      <footer role="contentinfo" class="Footer">
+        <p class="Footer-content">Godwin  - My Digital School - 2025 ©</p>
+      </footer>
+    </div>
+
+    <script src="maison.js"></script>
+  </body>
+</html>
